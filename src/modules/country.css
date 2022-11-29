@@ -1,0 +1,49 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  background-color: rgb(133, 203, 225);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 400px;
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  transition: all 0.15s ease-in-out;
+}
+.country-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px 0 rgba(68, 68, 68, 0.532);
+}
+.country-weather {
+  font: 1.5 rem, "Poppins", sans-serif;
+  font-weight: 4s00;
+  text-align: center;
+  color: rgb(250, 250, 250);
+}
+.country-weather-desc {
+  font: 1 rem, "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(250, 250, 250);
+}
+Link {
+  text-decoration: none;
+}
+.weather-country {
+  width: 100%;
+  text-align: center;
+  font: 2rem, "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
